@@ -63,8 +63,6 @@ const writeData = function() {
   fs.writeFile("washingtonTrails.json", json, "utf8", () => {});
 };
 
-// 将多个URL加入请求队列
-// c.queue(["http://www.google.com/", "http://www.yahoo.com"]);
 let urls = [];
 let start = 0;
 while (start < 3601) {
