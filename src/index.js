@@ -70,9 +70,7 @@ while (start < 3601) {
     `https://www.wta.org/go-outside/hikes/hike_search?sort=name&rating=0&mileage:float:list=0.0&mileage:float:list=25.0&title=&region=all&searchabletext=&filter=Search&subregion=all&b_start:int=${start}&show_incomplete=on&elevationgain:int:list=0&elevationgain:int:list=5000&highpoint=`
   );
   start += 30;
-  console.log(start);
 }
-console.log(urls);
 
 // start calling
 c.queue(urls);
